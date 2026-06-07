@@ -3,19 +3,19 @@ const markdownPlaceholders = [
     label: "Rocketry",
     title: "Payload Delivery For Less",
     description: "I'm currently working on an science fair project on developing novel rocket fuels that will possibly allow model rockets to enter space and deliver payloads.",
-    href: "docs/payload_delivery_for_less.pdf"
+    href: "https://github.com/shankar-sachin/shankar-sachin.github.io/raw/ce296d627da57b2054fa8ae98b112f00d3d1ccd9/docs/payload_delivery_for_less.pdf"
   },
   {
     label: "Windows App",
     title: "SuperWin",
     description: "This is a C++ application which works as a multi-tool. It has a clipboard manager, a file converter, four different classed calculators, and more. It is built using WinUI 3.",
-    href: "docs/superwin.pdf"
+    href: "https://github.com/shankar-sachin/shankar-sachin.github.io/raw/ce296d627da57b2054fa8ae98b112f00d3d1ccd9/docs/superwin.pdf"
   },
   {
     label: "Discord Bot",
     title: "Space Odyssey",
     description: "This is a discord bot that is a text and embed-based game build on JS that has engaging space-themed gameplay and server management tools.",
-    href: "docs/space_odyssey.pdf"
+    href: "https://github.com/shankar-sachin/shankar-sachin.github.io/raw/ce296d627da57b2054fa8ae98b112f00d3d1ccd9/docs/space_odyssey.pdf"
   }
 ];
 
