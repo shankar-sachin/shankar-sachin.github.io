@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#profile" aria-label="About Me home">
+        <span class="brand-mark">SS</span>
+        <span>Sachin Shankar</span>
+      </a>
+
+      <nav class="top-tabs" aria-label="Primary">
+        <a href="#profile" data-tab-link>Profile</a>
+        <a href="#projects" data-tab-link>Projects</a>
+        <a href="#specifications" data-tab-link>Specifications</a>
+        <a href="#contact" data-tab-link>Contact</a>
+        <a href="http://www.github.com/shankar-sachin" data-tab-link>GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="profile" class="profile-section">
+        <div class="profile-photo">
+          <img src="assets/profile-placeholder.png" alt="Professional profile photo placeholder">
+        </div>
+
+        <div class="profile-copy">
+            <p class="eyebrow">Hello, I&apos;m</p>
+            <h1>Sachin Shankar</h1>
+          <p class="role">Tesla STEM High School, Redmond, WA</p>
+          <p class="summary">
+            I'm Sachin Shankar, a high school student with a passion for astrophysics, engineering, and software development. I enjoy building projects that combine technical rigor and scientific relevance with real-world impact, and I'm always eager to learn new skills and collaborate with others. I'm currently interested heavily in rocketry.
+          </p>
+
+          <div class="profile-actions">
+            <a class="primary-action" href="#projects">View Work</a>
+            <a class="secondary-action" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band">
+        <div class="section-heading">
+          <p class="eyebrow">Overview</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <article>
+            <h3>Background</h3>
+            <p>
+              I'm currently a high school student at Tesla STEM High School and I work mostly in rocketry and aerospace engineering alongside software development for these fields.
+            </p>
+          </article>
+
+          <article>
+            <h3>Focus</h3>
+            <p>
+              I focus on the intersection of aerospace engineering and software development, particularly in the area of rocketry and space exploration. As of now, my GitHub is mostly non-space related, but I am actively working on a novel rocket fuel type.
+            </p>
+          </article>
+
+          <article>
+            <h3>Working Style</h3>
+            <p>
+              I approach projects with a methodical and detail-oriented mindset, ensuring that each component is well-designed and functions as intended. I value collaboration and open communication, believing that the best solutions emerge from diverse perspectives and constructive feedback. I like things to go according to the plan but am open to innovation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="content-band muted">
+        <div class="section-heading">
+          <p class="eyebrow">Markdown Library</p>
+          <h2>Project Notes</h2>
+          <p>
+            These are my three most important projects. Click on each card to view more details, including the project description, technologies used, and links to the code repositories or live demos.
+          </p>
+        </div>
+
+        <div class="project-grid" id="markdownCards" aria-live="polite">
+        </div>
+      </section>
+
+      <section id="specifications" class="content-band">
+        <div class="section-heading">
+          <p class="eyebrow">Specifications</p>
+          <h2>Profile Details</h2>
+        </div>
+
+        <div class="spec-list">
+          <div>
+            <dt>Location</dt>
+            <dd>Redmond, WA</dd>
+          </div>
+          <div>
+            <dt>Interests</dt>
+            <dd>Rocketry, Aerospace Engineering, Software Development</dd>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Talk to me</h2>
+        <p>You can reach out to me at <a href="mailto:sachinshankar@live.com">sachinshankar@live.com</a>.</p>
+      </div>
+
+      <a class="cv-link" href="https://raw.githubusercontent.com/shankar-sachin/profile/main/docs/Sachin_Shankar_Resume.pdf" aria-label="My resume/CV">My resume/CV</a>
+    </footer>
+  </body>
+</html>
