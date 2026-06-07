@@ -1,21 +1,21 @@
 const markdownPlaceholders = [
   {
-    label: "Coming Soon",
-    title: "Project Markdown Title",
-    description: "Short description for a future markdown document, project write-up, or portfolio note.",
-    href: "#"
+    label: "Rocketry",
+    title: "Payload Delivery For Less",
+    description: "I'm currently working on an science fair project on developing novel rocket fuels that will possibly allow model rockets to enter space and deliver payloads.",
+    href: "docs/payload_delivery_for_less.pdf"
   },
   {
-    label: "Coming Soon",
-    title: "Research or Case Study",
-    description: "Use this card for a longer explanation, technical breakdown, or professional case study.",
-    href: "#"
+    label: "Windows App",
+    title: "SuperWin",
+    description: "This is a C++ application which works as a multi-tool. It has a clipboard manager, a file converter, four different classed calculators, and more. It is built using WinUI 3.",
+    href: "docs/superwin.pdf"
   },
   {
-    label: "Coming Soon",
-    title: "Personal Notes",
-    description: "A place for personal statements, reflections, learning notes, or public documentation.",
-    href: "#"
+    label: "Discord Bot",
+    title: "Space Odyssey",
+    description: "This is a discord bot that is a text and embed-based game build on JS that has engaging space-themed gameplay and server management tools.",
+    href: "docs/space_odyssey.pdf"
   }
 ];
 
@@ -33,7 +33,7 @@ function renderMarkdownCards() {
           <span class="card-label">${item.label}</span>
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <a href="${item.href}" aria-label="Placeholder link for ${item.title}">Add .md link</a>
+          <a href="${item.href}" aria-label="Placeholder link for ${item.title}">Download overview</a>
         </article>
       `
     )
