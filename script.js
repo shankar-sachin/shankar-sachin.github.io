@@ -6,15 +6,15 @@ const markdownPlaceholders = [
     href: "docs/payload_delivery_for_less.pdf"
   },
   {
-    label: "Windows App",
-    title: "SuperWin",
-    description: "This is a C++ application which works as a multi-tool. It has a clipboard manager, a file converter, four different classed calculators, and more. It is built using WinUI 3.",
+    label: "iPhone",
+    title: "Eighty4",
+    description: "This is an iPhone app. It combines popular Texas Instruments graphing calculators and scientific calculators and replicates them stored completely on your iPhone. Zero ROM necessary.",
     href: "docs/superwin.pdf"
   },
   {
-    label: "Discord Bot",
-    title: "Space Odyssey",
-    description: "This is a discord bot that is a text and embed-based game build on JS that has engaging space-themed gameplay and server management tools.",
+    label: "SciBowl",
+    title: "Atom Bowl",
+    description: "This is a Science Bowl training website on which you can practice from a library of over 25,000 questions and practice them buzzer-style with voice. It also has moderator controls and buzzer rooms.",
     href: "docs/space_odyssey.pdf"
   }
 ];
